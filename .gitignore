@@ -1,0 +1,22 @@
+﻿# ---- Datasets: too large for GitHub — download separately (see README) ----
+*.csv
+# keep only the tiny feature-schema file (describes the 49 columns)
+!UNSW-NB15_features.csv
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
